@@ -1,0 +1,405 @@
+﻿/*RESET BASICO DE LOS ESTILOS PREDETERMINADOS QUE ASIGNA EL NAVEGADOR*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    background: #289672;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+    header img {
+        float: left;
+        margin-left: 90px;
+        padding-bottom: 10px;
+        width: 120px;
+        height: 70px;
+    }
+
+.titulo {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.logo img {
+    margin-left: 0;
+}
+
+h1 {
+    float: left;
+    font-style: oblique;
+    margin-right: auto;
+    color: black;
+    padding: 5px;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#saludo{
+    font-style: oblique;
+}
+
+/*-------------MENUS-------------*/
+
+/*ORGANIZA DE MANERA HORIZONTAL EL MENU DE BOTONES*/
+
+.menu {
+    padding-bottom: 0px;
+}
+
+.menu ul {
+    font-style: oblique;
+    display: flexbox;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 0px 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-item {
+    margin-top: 10px;
+}
+
+/*-------------BODY-------------*/
+.bod {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.under {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.over {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+/*-------------OVER-------------*/
+
+h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-style: oblique;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h5 {
+    font-weight: bold;
+}
+
+.buscar {
+    margin-left: 29%;
+    width: 550px;
+}
+
+
+/*-------------CAROUSEL PROD-------------*/
+
+.prod {
+    opacity: 0.7;
+    font-style: oblique;
+    width: 250px;
+    height: 300px;
+    float: right;
+    background-color: #DBFFFB;
+    text-align: center;
+    padding: 25px;
+    margin: 20px 30px 0 15px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-shadow: 0 10px 5px #888888; /*Sombreado del contenedor global*/
+    -moz-box-shadow: 0 10px 5px #888888;
+    box-shadow: 0 4px 5px #888888;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.car_elemento {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.prod:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.prod img {
+    padding-top: 0px;
+    width: 100%;
+    height: 90%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+    .prod img:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: saturate(180%);
+    }
+
+.c {
+    height: 340px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.anterior,
+.siguiente {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: none;
+    top: calc(50% - 30px);
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    background: none;
+    color: white;
+    opacity: 90%;
+}
+
+    .anterior:hover,
+    .siguiente:hover {
+        opacity: 0.7;
+        color: black;
+        background-color: white;
+    }
+
+.anterior {
+    left: -30px;
+}
+
+.siguiente {
+    right: -30px;
+}
+
+.car__elemento {
+    text-align: center;
+}
+
+.car_indicadores .glider-dot {
+    display: block;
+    width: 20px;
+    height: 10px;
+    background: #fff;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+    .car_indicadores .glider-dot:hover {
+        opacity: .9;
+    }
+
+    .car_indicadores .glider-dot.active {
+        opacity: 1;
+        background-color: black;
+    }
+
+*/
+/*-------------CARRUSEL-------------*/
+.carru {
+    width: 100%;
+    height: 500px;
+}
+
+
+/*-------------FOOTER-------------*/
+footer {
+    margin: auto;
+    background: #289672;
+    margin-top: 0px;
+    width: 100%;
+    /*height: 380px;*/
+    bottom: 0;
+}
+
+    footer a {
+        font-style: oblique;
+        text-decoration: none;
+        color: black;
+    }
+
+.news {
+    padding: 20px;
+    padding-bottom: 0;
+    display: flex;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.susc {
+    width: 400px;
+    margin-left: 20px;
+}
+
+#boton:hover {
+    background-color: white;
+    color: blue;
+}
+
+.pago {
+    padding: 20px;
+    display: flex;
+    float: right;
+    margin-left: 0;
+}
+
+.ccc {
+    margin-left: 80px;
+}
+
+.info {
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.copy {
+    padding-top: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.redes {
+    padding-top: 0px;
+}
+
+.iconos {
+    cursor: pointer;
+    float: left;
+    display: flex;
+}
+
+.tamanio {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+.tamanio-pay {
+    width: 90px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+
+
+/*----RESPONSIVE----*/
+@media (max-width:420px) {
+
+    header {
+        text-align: center;
+        padding-top: 0;
+        font-weight: bold;
+        width: 100%;
+        height: 160px;
+        display: flex;
+        align-items: center;
+    }
+
+        header img {
+            float: left;
+            margin-top: 10px;
+            width: 110px;
+            height: 60px;
+        }
+
+    .titulo {
+        display: flex;
+    }
+
+    /*-------------MENUS-------------*/
+
+    /*ORGANIZA DE MANERA HORIZONTAL EL MENU DE BOTONES*/
+
+    .menu ul {
+        float: left;
+        font-style: oblique;
+        display: flexbox;
+        margin: 0;
+        list-style: none;
+    }
+
+    .menu a {
+        display: block;
+        color: black;
+        padding: 0 20px;
+        text-decoration: none;
+    }
+
+    .bod {
+        position: relative;
+        width: 100%;
+        height: 250px;
+    }
+
+    .buscar {
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 280px;
+    }
+
+    .car {
+        display: none;
+    }
+
+    .car_indicadores {
+        display: none;
+    }
+
+
+    footer {
+        height: 750px;
+    }
+
+    .email {
+        display: none;
+    }
+
+    .ccc {
+        margin-top: 130px;
+    }
+
+    .ccc .info{
+        margin-top: 15px;
+    }
+
+    #boton {
+        display: none;
+    }
+
+    .xxx{
+        display: none;
+    }
+
+    .pago {
+        display: none;
+    }
+}

@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--ICONOS GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+    <link href="/css/index.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+</head>
+<body class="body">
+    <div class="container.fluid" vocab="http://schema.org/">
+        <header class="container.fluid bg-success bg-gradient">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="titulo">
+                            <div class="logo">
+                                <a property="logo" href="/Inicio/index"><img src="/imgs/logo2.png" alt="" property="image"></a>
+                            </div>
+                            <h1 property="tittle">Del Campo A Tu Mesa</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 text-end align-self-center ">
+                        <!--<div>
+                            <h5><b id="saludo"> </b></h5>
+                        </div>-->
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col d-flex justify-content-center ">
+                        <div class="menu">
+                            <ul class="nav nav-pills">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Inicio/ofertas">Ofertas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Inicio/vendedores">Vendedores</a> <br>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Inicio/acercaDelCampo">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Inicio/servicioCliente">Servicio al cliente</a> <br>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!--
+                        <div class="menu" id="menuDin">
+
+                        </div>
+
+                        <div class="menu" id="ContMenu">
+
+                        </div>
+                        -->
+
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+
+
+        @RenderBody()
+
+        <footer class="bg-success bg-gradient">
+            <div class="container">
+                <div class="row xxx">
+                    <div class="col">
+                        <div class="row">
+                            <div class="news">
+                                <h6 property="name">
+                                    ¡Suscribete a nuestro
+                                    Newsletter!
+                                </h6>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="d-flex">
+                                <input property="email" class="form-control form-control-sm" type="text"
+                                       placeholder="Ingresa tu mejor correo">
+                                &nbsp;
+                                <button type="button" class="btn btn-light btn-sm" id="boton">Suscribirme</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-7">
+                        <!--<div class="pago">
+                             <br>
+                             <div class="met-pay">
+                                 <img src="https://wompi.co/wp-content/themes/wp-theme-wompi/dist/images/home/payment-methods/ico_boton_bancolombia.png"
+                                      class="tamanio-pay">
+                                 <img src="https://img.icons8.com/color/452/visa.png" class="tamanio-pay">
+                                 <img src="https://image.flaticon.com/icons/png/512/196/196561.png" class="tamanio-pay">
+                                 <img src="https://www.elempleo.com/colombia/Files/BasesEmpresariales/efecty/image/logo_efecty.png"
+                                      class="tamanio-pay">
+                                 <img src="https://colegiofervan.edu.co/wp-content/uploads/2020/02/BotonPSE.png"
+                                      class="tamanio-pay">
+                                 <img src="https://ivanromero.blog/wp-content/uploads/2019/02/logo-mercadopago29.png"
+                                      class="tamanio-pay">
+                             </div>
+                         </div>-->
+                    </div>
+                </div>
+                <hr>
+
+                <div class="ccc">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+                            <div class="info">
+                                <h6>Acerca de Del Campo</h6>
+                                <a href="/Inicio/acercaDelCampo#contacto">Contacto</a><br>
+                                <a href="/Inicio/acercaDelCampo#sn">Sobre Nosotros</a><br>
+                                <a href="/Inicio/acercaDelCampo#np">Nuestras Politicas</a> <br>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info">
+                                <h6>Servicio al cliente</h6>
+                                <a property="url" href="/Inicio/servicioCliente">Preguntas frecuentes</a> <br>
+                                <a property="url" href="/Inicio/servicioCliente">Terminos y condiciones</a> <br>
+                                <a property="url" href="/Inicio/servicioCliente">Peticiones, quejas y reclamos</a> <br>
+                                <a property="url" href="/Inicio/servicioCliente">Ayuda</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 ">
+                            <div class="row ">
+                                <div class="info">
+                                    <h6 property="name">Siguenos</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="redes">
+                                    <div class="iconos">
+                                        <a href="#">
+                                            <img src="https://cdn.icon-icons.com/icons2/285/PNG/128/social_facebook_box_blue_256_30649.png"
+                                                 class="tamanio" property="facebook">
+                                        </a>
+                                        <a href="#">
+                                            <img src="https://cdn.icon-icons.com/icons2/1584/PNG/128/3721672-instagram_108066.png"
+                                                 class="tamanio" property="instagram">
+                                        </a>
+                                        <a href="#">
+                                            <img src="https://cdn.icon-icons.com/icons2/195/PNG/256/YouTube_23392.png"
+                                                 class="tamanio" property="youtube">
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="coL-12 coL-sm-8 coL-md-4">
+                    <div class="copy">
+                        <p property="og:description">&copy; 2022 Todos los derechos reservados <br></p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+
+    </div>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="/js/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+    <script src="~/js/Index.js"></script>
+    <script src="~/js/main.js"></script>
+
+    <!--<script src="~/js/jquery.js"></script>-->
+
+</body>
+</html>

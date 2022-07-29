@@ -1,0 +1,68 @@
+﻿@model IEnumerable<WebApplication2.Models.Vendedor>
+
+@{
+    ViewBag.Title = "Vendedores";
+    Layout = "~/Views/Shared/Productos.cshtml";
+}
+
+
+<div class="container" id="ofertas" vocab="http://schema.org/" typeof="Vendedor">
+
+    <br>
+    <h2 class="text-center">Nuestros vendedores</h2>
+    <br>
+
+    <div class="row justify-content-center">
+
+
+        @foreach (var item in Model)
+        {
+            <div class="col-sm-10">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-sm-10">
+                        <div class="row prod ">
+
+                            <div class="col-sm-6 imgp align-self-center">
+                                <img src="https://cdn-icons-png.flaticon.com/512/709/709722.png" property="image">
+                            </div>
+                            <div class="col-sm-4 align-self-center">
+                                <div class="d-flex">
+                                    <h5 property="Nombre"><b>@Html.DisplayFor(model => item.Nombre)</b></h5>
+                                </div>
+                                <div class="d-flex">
+                                    <p property="Apellido">@Html.DisplayFor(model => item.Apellidos)</p>
+                                </div>
+                                <div class="d-flex precio">
+                                    <b>Num Id:</b> &nbsp;
+                                    <p>@Html.DisplayFor(model => item.Identificacion)</p>
+                                </div>
+                                <div class="d-flex precio">
+                                    <b>Telefono:</b> &nbsp;
+                                    <p property="Telefono">@Html.DisplayFor(model => item.Telefono)</p>
+                                </div>
+                                <div class="d-flex precio">
+                                    <b>Dirección:</b> &nbsp;
+                                    <p property="Dirección">@Html.DisplayFor(model => item.Direccion)</p>
+                                </div>
+                                <div class="d-flex">
+                                    <b>Correo:</b> &nbsp;
+                                    <p property="Correo">@Html.DisplayFor(model => item.Correo)</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        }
+
+    </div>
+</div>

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body{
+    background-color: #f8f1f1; 
+}
+
+.body2{
+    display: flex;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+header {
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    width: 100%;
+    height: 110px;
+    background: #289672;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header img{
+    float: left;
+    margin-left: 90px;
+    padding-bottom: 10px;   
+    width: 120px;
+    height: 70px;
+}
+
+.logo img{
+    margin-left: 0;
+}
+
+.buscar{
+    padding-top: 10px;
+    position: absolute;
+    float: left;
+    margin-left: 8%;
+    width: 450px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+/*-------------MENUS-------------*/
+
+/*ORGANIZA DE MANERA HORIZONTAL EL MENU DE BOTONES*/
+
+.menu ul {
+    float: right;
+    font-style: oblique;
+    display: flexbox;
+    list-style: none;
+}
+
+.menu a{
+    float: right;
+    display: block;
+    padding: 0px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-item{
+    margin-top: 10px;
+}
+
+
+.logo img{
+    margin-left: 0;
+}
+
+
+/*----BODY----*/
+.acount{
+    margin-left: 20px;
+    width: 270px;
+    height: 100%;
+}
+
+.acount a{
+    text-decoration: none;
+    color: black;
+}
+
+.cpp{
+    display: flex;
+    margin-left: 8em;
+    padding-bottom: 2em;
+ }
+
+
+.dts{
+    background-color: white;
+    height: 60px;
+    border-radius: 0px;
+    padding: 20px;
+    }
+
+.dts a{
+    text-decoration: none;
+}
+
+
+/*RESPONSIVE*/
+@media (max-width:380px) {
+    header {
+        text-align: center;
+        padding-top: 15px;
+        font-weight: bold;
+        width: 100%;
+        height: 240px;
+        background: #289672;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .menu ul {
+        float: right;
+        font-style: oblique;
+        display: flexbox;
+        list-style: none;
+    }
+    
+    .menu a{
+        float: right;
+        display: block;
+        padding: 0px 25px;
+        color: black;
+        text-decoration: none;
+    }
+
+}

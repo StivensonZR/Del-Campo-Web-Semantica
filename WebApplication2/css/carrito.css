@@ -1,0 +1,214 @@
+/*RESET BASICO DE LOS ESTILOS PREDETERMINADOS QUE ASIGNA EL NAVEGADOR*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body{
+    background-color: #f8f1f1; 
+}
+
+header {
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    width: 100%;
+    height: 110px;
+    background: #289672;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header img{
+    float: left;
+    margin-left: 90px;
+    padding-bottom: 10px;   
+    width: 120px;
+    height: 70px;
+}
+
+.logo img{
+    margin-left: 0;
+}
+
+.buscar{
+    padding-top: 10px;
+    position: absolute;
+    float: left;
+    margin-left: 8%;
+    width: 450px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+/*-------------MENUS-------------*/
+
+/*ORGANIZA DE MANERA HORIZONTAL EL MENU DE BOTONES*/
+.menu ul {
+    float: right;
+    font-style: oblique;
+    display: flexbox;
+    list-style: none;
+}
+
+.menu a{
+    float: right;
+    display: block;
+    padding: 0px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-item{
+    margin-top: 10px;
+}
+
+.logo img{
+    margin-left: 0;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+    font-style: oblique;
+    margin-right: auto;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+.h5{
+    font-weight: bold; 
+}
+
+.cp{
+    background-color: white;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+
+.imgc{
+    height: 250px;
+}
+
+.imgc img{
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.qty {
+    display: flex;
+    font-size: 0;
+}
+
+.qty button {
+    width: 30px;
+    height: 30px;
+    padding: 2px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+.qty button.btn-minus {
+    border-radius: 4px 0 0 4px;
+    color: black;
+}
+
+.qty button.btn-plus {
+    border-radius: 0 4px 4px 0;
+    color: black;
+}
+
+.qty input {
+    width: 40px;
+    height: 30px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+}
+
+
+.cat button{
+    display: block;
+   text-decoration: none;
+   color: black;
+}
+
+.prod{
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+
+/*----RESPONSIVE----*/
+@media (max-width:420px) {
+
+    header {
+        text-align: center;
+        padding-top: 0;
+        font-weight: bold;
+        width: 100%;
+        height: 140px;
+        display: flex;
+        align-items: center;
+    }
+    
+    header img{
+        float: left;
+        margin-top: 10px;
+        width: 110px;
+        height: 60px;
+    }
+    
+    .buscar{
+        padding-top: 15px;
+        float: left;
+        margin-left: 30%;
+        width: 260px;
+        font-weight: 600;
+        font-size: medium;
+        margin-bottom: 0;
+    }
+    
+    /*-------------MENUS-------------*/
+    
+    /*ORGANIZA DE MANERA HORIZONTAL EL MENU DE BOTONES*/
+    
+    .menu ul {
+        float: left;   
+    }
+    
+    .menu a{
+        display: block;
+        color: black;
+        padding: 0 20px;
+        text-decoration: none;
+    }
+
+    .cant{
+        display: contents;
+    }
+
+    .qty{
+        margin-left: 10px;
+    }
+
+    .btns{
+        margin-bottom: 10px;
+    }
+
+}   

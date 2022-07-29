@@ -1,0 +1,716 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#"
+     xml:base="http://www.semanticweb.org/usuario/ontologies/2022/6/campo"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:campo="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#CompraA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#CompraA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#EsCategoriaDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#EsCategoriaDe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#EsCompradoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#EsCompradoPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#EsRealizadaPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#EsRealizadaPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#EsVendidoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#EsVendidoPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Tiene -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Tiene">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#TieneCategoria -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#TieneCategoria">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#VendeA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#VendeA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#ApellidoCliente -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#ApellidoCliente">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#ApellidoVendedor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#ApellidoVendedor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cantidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cantidad">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Correo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Correo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Descripción -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Descripción"/>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#DirecciónCliente -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#DirecciónCliente">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#NombreCliente -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#NombreCliente">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#NombreProducto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#NombreProducto">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#NombreVendedor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#NombreVendedor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Peso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Peso">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Precio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Precio">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Stock -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Stock">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Telefono -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Telefono">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Carnes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Carnes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Categorias"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Categorias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Categorias"/>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cliente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cliente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Persona"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Vendedor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Frutas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Frutas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Categorias"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Granos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Granos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Categorias"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lacteos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lacteos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Categorias"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Otros -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Otros">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Categorias"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Persona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Persona"/>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Vendedor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Vendedor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Verduras -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Verduras">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Categorias"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Aguacate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Aguacate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Verduras"/>
+        <EsCompradoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Anderson"/>
+        <EsVendidoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Andres"/>
+        <Descripción>Maduros</Descripción>
+        <NombreProducto>Aguacate</NombreProducto>
+        <Peso>1 Und</Peso>
+        <Precio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1300</Precio>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Aguja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Aguja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Carnes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Anderson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Anderson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cliente"/>
+        <CompraA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Aguacate"/>
+        <ApellidoCliente>Figueroa</ApellidoCliente>
+        <Correo>figueroa33@gmail.com</Correo>
+        <DirecciónCliente>calle 3 # 9-12</DirecciónCliente>
+        <NombreCliente>Anderson</NombreCliente>
+        <Telefono rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3206090487</Telefono>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Andres -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Andres">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Vendedor"/>
+        <VendeA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Aguacate"/>
+        <VendeA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cebolla"/>
+        <ApellidoVendedor>Rodriguez</ApellidoVendedor>
+        <Correo>juanR@gmail.com</Correo>
+        <NombreVendedor>Juan</NombreVendedor>
+        <Telefono rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3214567665</Telefono>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Arbeja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Arbeja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Granos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cebolla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cebolla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Verduras"/>
+        <EsCompradoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Luciana"/>
+        <EsVendidoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Andres"/>
+        <Descripción>cebolla cabezona</Descripción>
+        <NombreProducto>Cebolla</NombreProducto>
+        <Peso>500g</Peso>
+        <Precio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1700</Precio>
+        <Stock>50L</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Chuleta_de_Lomo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Chuleta_de_Lomo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Carnes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Falda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Falda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Carnes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Fresa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Fresa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Frutas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Frijol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Frijol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Granos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+        <EsCompradoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Stivenson"/>
+        <EsVendidoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lucas"/>
+        <Descripción>Granos Diana</Descripción>
+        <NombreProducto>Frijol</NombreProducto>
+        <Peso>1L</Peso>
+        <Precio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</Precio>
+        <Stock>30L</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Huevos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Huevos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Otros"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Jamón -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Jamón">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Carnes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Julian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Julian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Vendedor"/>
+        <VendeA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lomo_Bajo"/>
+        <VendeA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Naranja"/>
+        <VendeA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Pechuga"/>
+        <ApellidoVendedor>Álvez</ApellidoVendedor>
+        <Correo>julian23@gmail.com</Correo>
+        <NombreVendedor>Julián</NombreVendedor>
+        <Telefono rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3216753421</Telefono>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lechuga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lechuga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Verduras"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lentejas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lentejas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Granos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lomo_Alto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lomo_Alto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Carnes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lomo_Bajo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lomo_Bajo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Carnes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+        <EsCompradoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Luciana"/>
+        <EsVendidoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Julian"/>
+        <Descripción>Lomo bajo de Ternera</Descripción>
+        <NombreProducto>Lomo Bajo</NombreProducto>
+        <Peso>1Kg</Peso>
+        <Precio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20000</Precio>
+        <Stock>32Kg</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lucas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lucas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Vendedor"/>
+        <VendeA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Frijol"/>
+        <VendeA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Maracuya"/>
+        <VendeA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Panela"/>
+        <ApellidoVendedor>Perdomo</ApellidoVendedor>
+        <Correo>lucas32@gmail.com</Correo>
+        <NombreVendedor>Lucas</NombreVendedor>
+        <Telefono rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3194936543</Telefono>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Luciana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Luciana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cliente"/>
+        <CompraA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cebolla"/>
+        <CompraA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lomo_Bajo"/>
+        <CompraA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Pechuga"/>
+        <ApellidoCliente>España</ApellidoCliente>
+        <Correo>luciana98@gmail.com</Correo>
+        <DirecciónCliente>carrera 12#5-22</DirecciónCliente>
+        <NombreCliente>Luciana</NombreCliente>
+        <Telefono rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3156788976</Telefono>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Mango -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Mango">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Frutas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Mantequilla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Mantequilla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lacteos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Maracuya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Maracuya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Frutas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+        <EsCompradoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Stivenson"/>
+        <EsVendidoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lucas"/>
+        <Descripción>Maracuyá del Caquetá</Descripción>
+        <NombreProducto>Maracuyá</NombreProducto>
+        <Peso>1L</Peso>
+        <Precio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000</Precio>
+        <Stock>20L</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Martha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Martha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cliente"/>
+        <CompraA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Naranja"/>
+        <CompraA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Panela"/>
+        <ApellidoCliente>Cortéz</ApellidoCliente>
+        <Correo>cortez@gmail.com</Correo>
+        <DirecciónCliente>carrera 76#5-23</DirecciónCliente>
+        <NombreCliente>Martha</NombreCliente>
+        <Telefono rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3197654567</Telefono>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Muslo_Pollo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Muslo_Pollo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Carnes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Naranja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Naranja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Frutas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+        <EsCompradoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Martha"/>
+        <EsVendidoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Julian"/>
+        <Descripción>Naranja Valencia</Descripción>
+        <NombreProducto>Naranja</NombreProducto>
+        <Peso>500g</Peso>
+        <Precio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3900</Precio>
+        <Stock>20kg</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Panela -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Panela">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Otros"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+        <EsCompradoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Martha"/>
+        <EsVendidoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lucas"/>
+        <Descripción>Panela del Huila</Descripción>
+        <NombreProducto>Panela</NombreProducto>
+        <Peso>1kg</Peso>
+        <Precio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5500</Precio>
+        <Stock>60kg</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Pechuga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Pechuga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Carnes"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+        <EsCompradoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Luciana"/>
+        <EsVendidoPor rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Julian"/>
+        <Descripción>pechuga deshuesada</Descripción>
+        <NombreProducto>Pechuga</NombreProducto>
+        <Peso>1L</Peso>
+        <Precio rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7800</Precio>
+        <Stock>30L</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Quesillo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Quesillo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lacteos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Queso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Queso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lacteos"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Stivenson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Stivenson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Cliente"/>
+        <CompraA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Frijol"/>
+        <CompraA rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Maracuya"/>
+        <ApellidoCliente>Zapata</ApellidoCliente>
+        <Correo>zapata23@gmail.com</Correo>
+        <DirecciónCliente>calle 4 # 9-21</DirecciónCliente>
+        <NombreCliente>Stivenson</NombreCliente>
+        <Telefono rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">323456789</Telefono>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Tomate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Tomate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Verduras"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Zanahorias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Zanahorias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Producto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Verduras"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Carnes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Frutas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Granos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Lacteos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Otros"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/usuario/ontologies/2022/6/campo#Verduras"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

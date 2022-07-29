@@ -1,0 +1,62 @@
+﻿@model IEnumerable<WebApplication2.Models.Producto>
+
+@{
+    ViewBag.Title = "ofertas";
+    Layout = "~/Views/Shared/Productos.cshtml";
+}
+
+<div class="container" id="ofertas" vocab="http://schema.org/" typeof="Producto">
+
+    <br>
+    <h2 class="text-center" property="tittle">Ofertas</h2>
+    <br>
+
+    <div class="row justify-content-center" >
+
+
+        @foreach (var item in Model)
+        {
+            <div class="col-sm-5">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-sm-11">
+                        <div class="row prod ">
+
+                            <div class="col-sm-8 imgp align-self-center">
+                                <img src=@Html.DisplayFor(model => item.Imagen) property="image">
+                            </div>
+                            <div class="col-sm-4 align-self-center">
+                                <div class="d-flex">
+                                    <h5 property="Nombre"><b>@Html.DisplayFor(model => item.Nombre)</b></h5>
+                                </div>
+                                <div class="d-flex">
+                                    <b>Peso:</b> &nbsp;
+                                    <p property="Peso">@Html.DisplayFor(model => item.Peso)</p>
+                                </div>
+                                <div class="d-flex precio">
+                                    <b>Precio $:</b> &nbsp;
+                                    <p property="Precio">@Html.DisplayFor(model => item.Precio)</p>
+                                </div>
+                                <div class="d-flex">
+                                    <b>Stock:</b> &nbsp;
+                                    <p property="Stock">@Html.DisplayFor(model => item.Stock)</p>
+                                </div>
+                                <br>
+                                <div>
+                                    <a href="@Url.Action("detalleOferta", "Inicio", new {id_producto = item.Id_producto})" type="button" class="btn btn-secondary">Detalle</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        }
+
+    </div>
+</div>
+
+
+

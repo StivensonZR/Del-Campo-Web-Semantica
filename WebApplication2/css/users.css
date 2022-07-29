@@ -1,0 +1,94 @@
+/*RESET BASICO DE LOS ESTILOS PREDETERMINADOS QUE ASIGNA EL NAVEGADOR*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body{
+    background-color: #f8f1f1; 
+}
+
+.cp{
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding: 2em;
+}
+
+header {
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    width: 100%;
+    height: 70px;
+    background: #289672;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header img{
+    float: left;
+    margin-left: 90px;
+    padding-bottom: 10px;   
+    width: 120px;
+    height: 70px;
+}
+
+.logo img{
+    margin-left: 0;
+}
+
+h1{
+    float: left;
+    font-style: oblique;
+    margin-right: auto;
+    color: black;
+    padding: 5px;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+/*-------------MENU-------------*/
+/*ORGANIZA DE MANERA HORIZONTAL EL MENU DE BOTONES*/
+.menu ul {
+    margin-top: 34px;
+    float: right;
+    font-style: oblique;
+    display: flexbox;
+    list-style: none;
+}
+
+.menu a{
+    float: right;
+    display: block;
+    padding: 0px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-item{
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+    font-style: oblique;
+    margin-right: auto;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+.h5{
+    font-weight: bold; 
+}
+
+/*----BODY-----*/
+
+
+
+table{
+    margin-top: 1em;
+}

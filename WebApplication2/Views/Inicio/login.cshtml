@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "login";
+    Layout = "~/Views/Shared/Registrarse.cshtml";
+}
+
+<div>
+    <div class="container c">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div class="row ">
+
+                    <form method="POST" class="frm">
+                        <h5><b>Iniciar Sesión</b></h5>
+                        <br>
+                        <div class="row justify-content-center ">
+                            <div class="col-md-6 ">
+                                <label for="validationDefault01" class="form-label text-center">Email</label>
+                                <input type="text" class="form-control bg-light" id="validationDefault01" aria-required="true"
+                                       autocomplete="chrome-off" aria-label="Nombre" rows="1" maxlength="40" required>
+                            </div>
+
+                            <div class="col-md-5 ">
+                                <label for="validationDefault01" class="form-label text-center">Contraseña</label>
+                                <input type="password" class="form-control bg-light" id="validationDefault01" aria-required="true"
+                                       autocomplete="chrome-off" aria-label="Nombre" rows="1" class="andes-form-control__field"
+                                       maxlength="40" required>
+                            </div>
+
+
+                        </div>
+                        <br>
+                        <div class="row text-center">
+                            <a href="#" class="forget">Olvide mi contraseña</a>
+                        </div>
+                        <br>
+
+                        <div class="d-grid gap-2 col-md-5 mx-auto">
+                            <button class="btn btn-success bg-gradient " type="submit">Ingresar</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
